@@ -1,0 +1,12 @@
+[programs.devnet]
+marmot = "J5mre6rguL9nvR6kXjtjHhEfQZMAUSEethGMTmPZ7TUc"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/malg/.config/solana/id.json"
+
+[scripts]
+test = "node tests/marmot.js"
